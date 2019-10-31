@@ -1,0 +1,75 @@
+.theList {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(5px + 2vmin);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.li {
+  color: #333;
+  background-color: rgba(88, 77, 87, 0.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.trash {
+ height: 2em;
+ width: 1.5em;
+}
+
+.bp{
+ background: transparent;
+}
+
+input[type=checkbox]:checked + li {
+  text-decoration: line-through;
+}
+
+.center {
+  width:350px;
+  margin:0 auto;
+}
+
+li:hover {
+  background-color: rgb(211, 174, 189);
+  cursor: pointer;
+}
+
+.backgroundColor {
+  background-color: rgb(220, 209, 223);
+}
+
+.hero {
+  /* background-image: url(/static/media/fruits-image.1481df35.jpg); */
+  height: 18em;
+  width:100%;
+  background-color:  rgba(220, 209, 223, 0.205);display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  outline-color: pink;
+}
+
+.heroImage {
+  width:45em;
+} 
+
+.App-header {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  min-height: 16vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(8px + 2vmin);
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: calc(14px + 2vmin);
+}
+
